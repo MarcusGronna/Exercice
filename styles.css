@@ -47,3 +47,20 @@ table {
     border: 1px dotted gainsboro;
     padding: 1rem;
 }
+
+.link-button {
+padding: 5px;
+    border: 1px solid blackM
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+}
+
+.link-button:hover {
+    cursor: pointer;
+}
+
+.link-button:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow; 0px 0px;
