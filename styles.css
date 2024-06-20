@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: ghostwhite;
+    background-color: #013328;
 }
 
 h1 {
@@ -22,7 +22,7 @@ table {
 }
 
 .table-header .table-row {
-    background-color: bisque;
+    background-color: #CC8B65;
 }
 
 .table-head {
@@ -37,11 +37,13 @@ table {
 }
 
 .table-row {
-    background-color: aliceblue;
     border: 1px solid black;
 }
 
-.table-body {}
+.table-body {
+    background-color: #E3DCD2;
+    
+}
 
 .table-body .table-cell {
     border: 1px dotted gainsboro;
@@ -50,14 +52,17 @@ table {
 
 .link-button {
 padding: 5px;
-    border: 1px solid blackM
+    border: 1px solid black;
     border-radius: 5px;
     text-decoration: none;
     box-shadow: 0px 5px;
+    background-color: #CC8B65;
+    color: #FFF;
 }
 
 .link-button:hover {
     cursor: pointer;
+    
 }
 
 .link-button:active {
