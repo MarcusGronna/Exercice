@@ -46,7 +46,7 @@ table {
 }
 
 .table-body .table-cell {
-    border: 1px dotted gainsboro;
+    border: 1px dotted #100C0D;
     padding: 1rem;
 }
 
