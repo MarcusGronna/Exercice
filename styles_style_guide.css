@@ -1,0 +1,79 @@
+.container {
+    padding: 2rem;
+    border: 2px solid gray;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.container:not(:first-child) {
+    text-align: center;
+
+}
+
+.color-box {
+    display: inline-block;
+    border: 1px solid black;
+    width: 15rem;
+    height: 10rem;
+    margin: .5rem;
+    text-align: center;
+}
+
+.blue {
+    color: white;
+    background-color: #525BFA;
+
+}
+
+.gray {
+    background-color: #7a7966;
+}
+
+.orange {
+    background-color: #FAC452;
+}
+
+.yellow {
+    background-color: #FAED52;
+
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.margin-big {
+    margin: 2rem;
+}
+
+div.lora-font {
+    font-family: 'Lora', serif;
+}
+
+div.nunito-font {
+    font-family: 'Nunito', sans-serif;
+}
+
+div.raleway-font {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .lora-header h3 {
+    font-family: Lora, serif;
+} */
+
+/* .lora-normal {
+    font-family: Lora, serif;
+    font-weight: normal;
+
+} */
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
