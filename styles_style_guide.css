@@ -1,3 +1,9 @@
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    /* font-family: 'Nunito'; */
+}
+
 .container {
     padding: 2rem;
     border: 2px solid gray;
@@ -21,23 +27,36 @@
     text-align: center;
 }
 
-.blue {
+/* .blue {
     color: white;
     background-color: #525BFA;
 
+} */
+
+:root {
+    --gray-color: #E3DCD2;
+    --beige-color: #CC8B65;
+    --green-color: #013328;
+    --black-color: #100C0D;
 }
 
 .gray {
-    background-color: #7a7966;
+    background-color: var(--gray-color);
 }
 
-.orange {
-    background-color: #FAC452;
+.beige {
+    background-color: var(--beige-color);
 }
 
-.yellow {
-    background-color: #FAED52;
+.green {
+    color: var(--gray-color);
+    background-color: var(--green-color);
 
+}
+
+.black {
+    color: var(--gray-color);
+    background-color: var(--black-color);
 }
 
 .inline-block {
@@ -58,6 +77,12 @@ div.nunito-font {
 
 div.raleway-font {
     font-family: 'Raleway', sans-serif;
+}
+
+ul.no-decoration li {
+    list-style-type: none;
+    /* margin-left: 0; */
+    line-height: 1.5rem;
 }
 
 /* .lora-header h3 {
