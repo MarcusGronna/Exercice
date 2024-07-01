@@ -1,12 +1,31 @@
 h1 {
     font-weight: 700;
     font-size: 26px;
-    /* font-family: 'Nunito'; */
+    font-family: 'Nunito';
+}
+
+h2 {
+    font-family: 'Raleway', serif;
+
 }
 
 .container {
     padding: 2rem;
     border: 2px solid gray;
+    box-shadow: 0 2px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-content: space-between;
+
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), Light shadow */
+    /* 0 6px 20px rgba(0, 0, 0, 0.1);  Darker shadow  */
+
+}
+
+.container h2 {
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 .left-aligned {
